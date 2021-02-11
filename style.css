@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  --height: 30vw;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box {
+  height: calc(var(--height) * 1px);
+  width: 5vw;
+  background-color: skyblue;
+  margin-left: 1px;
+  border: 1px solid black;
+}
